@@ -32,18 +32,12 @@ class HeroHeader extends Component {
           </div>
         </div>
         <div className="row pb-5">
-          <div className="col-md-6 w-100">
-            <a
-              className="btn ml-4 hero-btn hvr-grow float-right"
-              target="_blank"
-              href=""
-            >
+          <div className="col-md-6 text-center m-auto">
+            <a className="btn ml-4 hero-btn hvr-grow" target="_blank" href="">
               <FontAwesomeIcon icon="file" /> View Resume
             </a>
-          </div>
-          <div className="col-md-6 m-auto text-center">
             <a
-              className="btn ml-4 hero-btn hvr-grow float-left"
+              className="btn ml-4 hero-btn hvr-grow"
               target="_blank"
               href="https://github.com/twalkerjr22"
             >

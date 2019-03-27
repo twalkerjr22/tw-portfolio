@@ -5,6 +5,7 @@ import Navbar from "./components/NavBar";
 import NavBar from "./components/NavBar";
 import HeroHeader from "./components/HeroHeader";
 import HeroBody from "./components/HeroBody";
+import RecentWork from "./components/RecentWork";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -27,6 +28,7 @@ class App extends Component {
         <NavBar />
         <HeroHeader />
         <HeroBody />
+        <RecentWork />
       </main>
     );
   }

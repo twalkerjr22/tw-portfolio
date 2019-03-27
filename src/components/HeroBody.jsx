@@ -10,7 +10,7 @@ class HeroBody extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <div className="main-body">
         <div className="row hero-intro m-auto">
           <div className="col-md-8 m-auto">
             <h1 className="mb-3">Hi, I’m Troy. Nice to meet you.</h1>
@@ -87,7 +87,7 @@ class HeroBody extends Component {
             </p>
           </div>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

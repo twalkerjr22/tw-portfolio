@@ -10,8 +10,16 @@ h2 {
 .hero-header {
   margin-top: 150px;
 }
+
+.main-body {
+  height: 1250px;
+}
 .organge {
   background-color: #ff7654;
+}
+
+.purple-text {
+  color: #8c43ff;
 }
 
 .purple {
@@ -27,6 +35,7 @@ nav h2 {
   color: white !important;
   font-weight: 700 !important;
 }
+
 
 .hero-btn {
   border: 1px solid #8c43ff !important;
@@ -61,7 +70,7 @@ nav h2 {
   border-radius: 5px 0px 0px 5px;
   height: 700px;
   margin-bottom: 50px !important;
-  border: .05em solid #8c43ff;
+  border: 0.05em solid #8c43ff;
   margin-right: 10px;
 }
 
@@ -71,7 +80,7 @@ nav h2 {
   margin-bottom: 40px;
 }
 
-.skill-title{
+.skill-title {
   color: #8c43ff !important;
 }
 .skill-col-right {
@@ -80,9 +89,8 @@ nav h2 {
   border-radius: 0px 5px 0px 0px;
   height: 700px;
   margin-bottom: 50px !important;
-  border: .05em solid #8c43ff;
+  border: 0.05em solid #8c43ff;
   margin-left: 10px;
-  
 }
 
 .hero-intro p {
@@ -122,6 +130,51 @@ nav ul a {
 
 .App-link {
   color: #61dafb;
+}
+
+@media only screen and (max-width: 923px) {
+  .main-body {
+    height: 1300px;
+  }
+}
+
+@media only screen and (max-width: 874px) {
+  .main-body {
+    height: 1400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-body {
+    height: 1400px;
+  }
+
+  .hero-btn {
+    float: none !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .main-body {
+    height: 2150px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main-body {
+    height: 2200px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .main-body {
+    height: 2300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main-body {
+    height: 2400px;
+  }
 }
 
 @keyframes App-logo-spin {
