@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import bootstrap from "bootstrap/dist/css/bootstrap.css";
 import "../App.css";
 import Hover from "hover.css";
+import logo from '../imgs/code-128.png';
 
 const navbar = {
     backgroundColor: "#8C43FF",
@@ -11,15 +12,15 @@ const navbar = {
 class NavBar extends Component {
   render() {
     return (
-      <nav style={navbar} class="navbar navbar-expand-lg">
+      <nav style={navbar} className="navbar navbar-expand-lg">
         <img
-          class="ml-3 mr-3"
+          className="ml-3 mr-3"
           width="60"
-          src="../../public/imgs/code-128.png"
+          src={logo}
         />
         <h2>Troy Walker</h2>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -27,27 +28,27 @@ class NavBar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
-        <div class="nav-links ml-auto mr-5" id="navbarNavAltMarkup">
-          <ul class="navbar-nav float-right">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
+        <div className="nav-links ml-auto mr-5" id="navbarNavAltMarkup">
+          <ul className="navbar-nav float-right">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                Home <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Languages
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Portfolio
               </a>
             </li>
             <li>
-              <button class="btn ml-4 cta-btn hvr-pulse">Get In Touch</button>
+              <button className="btn ml-4 cta-btn hvr-grow">Get In Touch</button>
             </li>
           </ul>
         </div>
