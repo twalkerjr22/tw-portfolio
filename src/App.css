@@ -1,11 +1,43 @@
 .App {
   text-align: center;
 }
+body,
+h1,
+h2 {
+  font-family: "fira sans";
+}
+
+.hero-header{
+  height: 300px;
+}
+.organge {
+  background-color: #ff7654;
+}
+
+.purple {
+  background-color: "#6849e3";
+}
+
+nav h2 {
+  color: white;
+}
+
+.cta-btn {
+  background-color: #ff8c43 !important;
+  color: white !important;
+  font-weight: 700 !important;
+}
+.nav-links {
+  float: right !important;
+}
+nav ul a {
+  color: white;
+  font-weight: bold;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
 }
 
 .App-header {
