@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/tw-portfolio/static/media/whha.b31aaa45.png"
   },
   {
-    "revision": "104fc8514962fc2c3141",
+    "revision": "d82c8b20c46caf87031e",
     "url": "/tw-portfolio/static/css/main.c3d3d2ff.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/tw-portfolio/static/media/react-logo.47ce6e77.png"
   },
   {
-    "revision": "104fc8514962fc2c3141",
-    "url": "/tw-portfolio/static/js/main.805570cd.chunk.js"
+    "revision": "d82c8b20c46caf87031e",
+    "url": "/tw-portfolio/static/js/main.dfea1a2b.chunk.js"
   },
   {
     "revision": "2bf953334a0c14c2dce86bad298df04c",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/tw-portfolio/static/css/2.673c6054.chunk.css"
   },
   {
-    "revision": "70bd2844e276c3d01ef2b77426ed0cd3",
+    "revision": "9d9331803af9f0a6fc32d4e20c5076b4",
     "url": "/tw-portfolio/index.html"
   }
 ];
